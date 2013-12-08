@@ -1,6 +1,6 @@
 #install things...
-#apt-get update
-#apt-get -y install git python curl
+apt-get update
+apt-get -y install git python curl
 
 IN_SDK_SCRIPT=$( cat <<EOF
     echo coreos | ./set_shared_user_password.sh;
