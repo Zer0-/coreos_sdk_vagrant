@@ -8,7 +8,6 @@ IN_SDK_SCRIPT=$( cat <<EOF
     ./setup_board;
     ./build_packages;
     ./build_image prod;
-    $HOME;
 EOF
 )
 
